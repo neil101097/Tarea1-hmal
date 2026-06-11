@@ -1,0 +1,38 @@
+:root{
+    --color-principal: red;
+    --color-secundario: blue;
+    --fuente-base : Arial, sans-serif;
+}
+
+body{
+    font-family: var(--fuente-base);
+  
+}
+h1 {
+    color: var(--color-principal);
+}
+
+footer {
+    color: var(--color-secundario);
+}
+nav a:hover{
+    background-color: var(--color-principal);
+    color: white;
+    border-radius: 5px;
+
+}
+.imagen{
+    max-width: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+input{
+    border-radius: 5px;
+    padding: 10px;
+}
+#Titulo{
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
